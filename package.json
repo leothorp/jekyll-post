@@ -1,7 +1,7 @@
 {
   "name": "@leothorp/jekyll-post",
   "description": "Generate a new post for a jekyll blog with frontmatter.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "src/index.js",
   "bin": {
     "jp": "./bin/jp.js"
