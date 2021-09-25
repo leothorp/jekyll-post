@@ -8,7 +8,7 @@ Expects to be run in a directory containing a `./_posts` folder.
 ### Installation
 
 ```
-  npm i -g jekyll-post
+  npm i -g @leothorp/jekyll-post
 ``` 
 Now the cli will be globally available as `jp`. Usage:
 ```
@@ -18,7 +18,7 @@ jp -t "Post title" -c category1,category2
 
   Alternatively, to start using it directly without the global npm installation:
 ```
-  npx jekyll-post -t "Post title" -c category1,category2
+  npx @leothorp/jekyll-post -t "Post title" -c category1,category2
 ``` 
 
 
