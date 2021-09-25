@@ -1,6 +1,6 @@
 {
 
-  "name": "jekyll-post",
+  "name": "@leothorp/jekyll-post",
 
   "description": "Generate a new post for a jekyll blog with frontmatter.",
 
