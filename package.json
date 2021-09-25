@@ -1,62 +1,31 @@
 {
-
   "name": "@leothorp/jekyll-post",
-
   "description": "Generate a new post for a jekyll blog with frontmatter.",
-
   "version": "1.0.4",
-
   "main": "src/index.js",
-
   "bin": {
-
-    "jp": "jp.js"
-
+    "jp": "./bin/jp.js"
   },
-
   "dependencies": {
-
     "commander": "^8.2.0",
-
     "shelljs": "^0.8.4"
-
   },
-
   "scripts": {
-
     "test": "echo \"Error: no test specified\" && exit 1"
-
   },
-
   "repository": {
-
     "type": "git",
-
     "url": "git+https://github.com/leothorp/jekyll-post.git"
-
   },
-
   "keywords": [
-
     "jekyll",
-
     "post",
-
     "generator"
-
   ],
-
   "author": "leothorp",
-
   "license": "MIT",
-
   "bugs": {
-
     "url": "https://github.com/leothorp/jekyll-post/issues"
-
   },
-
   "homepage": "https://github.com/leothorp/jekyll-post#readme"
-
 }
-
