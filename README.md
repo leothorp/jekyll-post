@@ -1,9 +1,5 @@
 # jekyll-post
-Simple CLI to generate a new post timestamped on the current date for a jekyll blog. 
-
-### Requirements
-
-Expects to be run in a directory containing a `./_posts` folder.
+Simple CLI for generating a new Jekyll blogpost timestamped at the current date.
 
 ### Installation
 
@@ -21,10 +17,14 @@ jp -t "Post title" -c category1,category2
   npx @leothorp/jekyll-post -t "Post title" -c category1,category2
 ``` 
 
+### Assumptions
+
+Expects to be run in a directory containing a `./_posts` folder.
+
 
 ### CLI Options
 
 `-t --title <post title>` Title of the post. Should be wrapped in quotes. (Required)
 
-`-c --categories <category list>` Comma-separated list of categories (category names cannot contain space.)
+`-c --categories <category1,category2,category3...>` Comma-separated list of categories. Category names cannot contain spaces.
 
