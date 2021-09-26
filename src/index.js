@@ -29,7 +29,7 @@ module.exports = (argv) => {
   invariant(test("-e", "./_posts"), "No ./_posts directory found.");
   const date = new Date();
   const year = date.getFullYear(),
-    month = date.getMonth(),
+    month = date.getMonth() + 1, //getMonth return value is zero-indexed
     day = date.getDate();
   const timestampStr = [year, month, day].join("-");
   const fileNameTitleStr = toKebab(title).replace(/[^a-zA-Z0-9\-]/g, "");
