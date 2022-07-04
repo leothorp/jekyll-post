@@ -1,5 +1,4 @@
 const genCli = require("./genCli");
-const fs = require("fs");
 const { test, echo, touch } = require("shelljs");
 const invariant = (cond, msg) => {
   if (!cond) {
@@ -60,14 +59,3 @@ module.exports = (argv) => {
 
   lines.forEach(writeLineToFile);
 };
-
-/***** 
- tests:
-  -err if no _posts
-  -err if file exists
-  -creates post
-  -fmt correct
-  -cats ommited or included correctly
- 
-  
-*/
