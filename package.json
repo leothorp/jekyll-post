@@ -24,7 +24,7 @@
     "url": "https://github.com/leothorp/jekyll-post/issues"
   },
   "homepage": "https://github.com/leothorp/jekyll-post#readme",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^11.1.0",
     "shelljs": "^0.8.5"
   }
